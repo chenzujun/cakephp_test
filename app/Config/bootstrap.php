@@ -107,3 +107,12 @@ CakeLog::config('error', array(
 	'types' => array('warning', 'error', 'critical', 'alert', 'emergency'),
 	'file' => 'error',
 ));
+/**
+ * use for test configure::read 
+ */
+Configure::write('top_menu_show_count',
+	array(
+	'PC' => 8,
+	'SP' => 3,
+	)
+);
