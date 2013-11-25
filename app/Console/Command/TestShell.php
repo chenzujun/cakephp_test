@@ -23,6 +23,7 @@ class TestShell extends AppShell {
 // 		Cakelog::write('info', $english_format_number);
 // 		// 1234.57
 		
+		// php 5.4.0新增支持对函数返回数组的成员解析
 		$pc_count = Configure::read('top_menu_show_count')['PC'];
 		
 		$arrTmp = array(
