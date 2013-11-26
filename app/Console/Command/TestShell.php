@@ -28,6 +28,7 @@ class TestShell extends AppShell {
 		// test from git command of branch jun
 		// test from git command of branch jun commit without add: can't! Must add before.
 		// commit from master
+		// add from branch jun
 		$pc_count = Configure::read('top_menu_show_count')['PC'];
 		
 		$arrTmp = array(
