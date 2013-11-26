@@ -25,6 +25,7 @@ class TestShell extends AppShell {
 		
 		// php 5.4.0新增支持对函数返回数组的成员解析
 		// test
+		// test from git comman of branch jun
 		$pc_count = Configure::read('top_menu_show_count')['PC'];
 		
 		$arrTmp = array(
